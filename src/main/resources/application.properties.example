@@ -9,3 +9,6 @@ spring.jpa.hibernate.ddl-auto=update
 aws.region=us-east-1
 aws.accessKeyId=SUA_CHAVE
 aws.secretKey=SUA-SECRET
+
+spring.rabbitmq.addresses=
+spring.rabbitmq.queue
