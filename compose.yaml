@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=ms-email'
+      - 'POSTGRES_PASSWORD=senha-postgres'
+      - 'POSTGRES_USER=root'
+    ports:
+      - '5432'
