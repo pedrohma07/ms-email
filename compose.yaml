@@ -1,9 +1,11 @@
 services:
   postgres:
-    image: 'postgres:latest'
+    image: postgres
+    container_name: ms-email
+    restart: always
     environment:
-      - 'POSTGRES_DB=ms-email'
-      - 'POSTGRES_PASSWORD=senha-postgres'
-      - 'POSTGRES_USER=root'
+      POSTGRES_DB: ms-email
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: senha-postgres
     ports:
-      - '5432'
+      - "5432:5432"
