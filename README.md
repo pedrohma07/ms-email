@@ -47,7 +47,7 @@ As principais tecnologias, frameworks e ferramentas utilizadas no projeto:
 
 ## Instalação
 
-Para instalação do projetos, execute os seguintes comdandos:
+Para instalação do projetos, execute os seguintes comdandos e preencha os valores com [] com suas informações:
 
 ```
 git clone https://github.com/pedrohma07/ms-email.git
@@ -62,11 +62,11 @@ spring.datasource.username=root
 spring.datasource.password=senha-postgres
 spring.jpa.hibernate.ddl-auto=update
 
-aws.region=sua-region
-aws.accessKeyId=Sua-accessKeyId
-aws.secretKey=Sua-secretKey
+aws.region=[sua-region]
+aws.accessKeyId=Sua-[accessKeyId]
+aws.secretKey=[Sua-secretKey]
 
-spring.rabbitmq.addresses=addresses-do-cloudAMQP
+spring.rabbitmq.addresses=[addresses-do-cloudAMQP]
 spring.rabbitmq.queue=ms.email" > src/main/resources/application.properties
 
 ```
