@@ -4,7 +4,7 @@ services:
     container_name: ms-email
     restart: always
     environment:
-      POSTGRES_DB: ms-email
+      POSTGRES_DB: ms_email
       POSTGRES_USER: root
       POSTGRES_PASSWORD: senha-postgres
     ports:
